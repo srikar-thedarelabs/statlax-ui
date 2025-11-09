@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* theme vars live in @statlax/ui/styles.css which is imported in App.tsx */
+
+html, body, #root {
+  height: 100%;
+}
+
