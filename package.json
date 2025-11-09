@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "pnpm -r build",
+    "build": "pnpm -r --filter '!./apps/**' build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "pnpm -r build && changeset publish"
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.8"
